@@ -8,7 +8,7 @@ public class ScannerWhile1 {
         Scanner scanner = new Scanner(System.in);
 
         while(true){
-            System.out.println("문자열을 입력하시오(exit입력시 종료) : ");
+            System.out.print("문자열을 입력하시오(exit입력시 종료) : ");
             String str = scanner.nextLine();
             if(str.equals("exit")){
                 System.out.println("시스템을 종료합니다");
